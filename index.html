@@ -449,7 +449,6 @@ footer{padding:48px 0 64px;color:var(--text-faint);font-size:13.5px;border-top:1
       <a href="#formula">90 секунд</a>
       <a href="#objections">Возражения</a>
       <a href="#errors">Ошибки</a>
-      <a href="#practice">Практика</a>
       <a href="#checklist">Чек-лист</a>
       <a href="#selfcheck">Самопроверка</a>
       <a href="#sources">Источники</a>
@@ -793,84 +792,7 @@ footer{padding:48px 0 64px;color:var(--text-faint);font-size:13.5px;border-top:1
 </section>
 
 <!-- ============== PRACTICE ============== -->
-<section id="practice">
-  <div class="wrap">
-    <div class="section-kicker">07 · Мини-практика</div>
-    <h2>Попробуй прямо сейчас</h2>
-    <p class="section-intro">Три коротких задания. Ответы сохраняются в этой вкладке браузера — можно вернуться позже. Кнопкой ниже можно выгрузить всё в текстовый файл.</p>
 
-    <!-- Task 1 -->
-    <div class="practice" data-task="t1">
-      <div class="practice-head"><span class="practice-num">Задание 1</span><h4>Claim или жалоба?</h4></div>
-      <p class="prompt">Перепиши каждую фразу так, чтобы в ней было <strong>конкретное действие</strong>.</p>
-
-      <label class="field">1. «ТЗ опять непонятное.»
-        <textarea data-key="t1-a" rows="2" placeholder="Предлагаю..."></textarea>
-      </label>
-      <label class="field">2. «Так нельзя релизить.»
-        <textarea data-key="t1-b" rows="2" placeholder="Предлагаю..."></textarea>
-      </label>
-      <label class="field">3. «Эта фича не нужна.»
-        <textarea data-key="t1-c" rows="2" placeholder="Предлагаю..."></textarea>
-      </label>
-      <label class="field">4. «У нас опять нет нормального мониторинга.»
-        <textarea data-key="t1-d" rows="2" placeholder="Предлагаю..."></textarea>
-      </label>
-
-      <details class="tip">
-        <summary>Показать пример ответа</summary>
-        <div>Предлагаю до разработки уточнить три сценария, которые сейчас можно трактовать по-разному. Сильный claim — это глагол действия + конкретный объект, без обобщений «опять», «всё», «никогда».</div>
-      </details>
-    </div>
-
-    <!-- Task 2 -->
-    <div class="practice" data-task="t2">
-      <div class="practice-head"><span class="practice-num">Задание 2</span><h4>Добавь warrant</h4></div>
-      <p class="prompt">Факт: <em>«В задаче не описано, что делать, если пользователь повторно нажал кнопку оплаты»</em>. Допиши последствие на языке каждой роли.</p>
-
-      <label class="field">Для аналитика это важно, потому что…
-        <textarea data-key="t2-a" rows="2" placeholder="...без acceptance criteria для повторного клика..."></textarea>
-      </label>
-      <label class="field">Для продакта это важно, потому что…
-        <textarea data-key="t2-b" rows="2" placeholder="...пользователь может увидеть двойное списание..."></textarea>
-      </label>
-      <label class="field">Для QA это важно, потому что…
-        <textarea data-key="t2-c" rows="2" placeholder="...сценарий нельзя однозначно проверить..."></textarea>
-      </label>
-
-      <details class="tip">
-        <summary>Подсказка: формула warrant</summary>
-        <div>Warrant = «если факт останется как есть → конкретное последствие в зоне ответственности роли». Для аналитика последствие — про требования, для продакта — про пользователя и метрики, для QA — про проверяемость, для тимлида — про delivery и переделку.</div>
-      </details>
-    </div>
-
-    <!-- Task 3 -->
-    <div class="practice" data-task="t3">
-      <div class="practice-head"><span class="practice-num">Задание 3</span><h4>Ответ на возражение</h4></div>
-      <p class="prompt">Возражение: <em>«У нас нет времени это обсуждать, нужно брать задачу в разработку»</em>. Ответь по схеме.</p>
-
-      <label class="field">Понимаю, что…
-        <textarea data-key="t3-a" rows="2" placeholder="...срок спринта действительно важен..."></textarea>
-      </label>
-      <label class="field">Риск в том, что…
-        <textarea data-key="t3-b" rows="2"></textarea>
-      </label>
-      <label class="field">Я не предлагаю…
-        <textarea data-key="t3-c" rows="2"></textarea>
-      </label>
-      <label class="field">Давайте…  <span style="color:var(--text-faint);font-weight:400">(конкретный next step с форматом и сроком)</span>
-        <textarea data-key="t3-d" rows="2"></textarea>
-      </label>
-    </div>
-
-    <div class="practice-actions">
-      <button class="btn" id="saveBtn">Сохранить ответы</button>
-      <button class="btn ghost" id="exportBtn">Скачать как .txt</button>
-      <button class="btn ghost" id="clearBtn">Очистить</button>
-      <span class="save-flash" id="saveFlash">Сохранено</span>
-    </div>
-  </div>
-</section>
 
 <!-- ============== CHECKLIST ============== -->
 <section id="checklist">
